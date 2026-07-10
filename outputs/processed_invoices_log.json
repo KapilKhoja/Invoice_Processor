@@ -1,0 +1,30 @@
+[
+  {
+    "key": "nimbuscloudservices::inv4002",
+    "vendor_norm": "nimbuscloudservices",
+    "total": 3294.0,
+    "invoice_date": "2026-07-06",
+    "source_filename": "happy_path_2_scanned.pdf"
+  },
+  {
+    "key": "acmesuppliesinc::inv2049",
+    "vendor_norm": "acmesuppliesinc",
+    "total": 1398.6,
+    "invoice_date": "2026-06-15",
+    "source_filename": "invoice_2049.pdf"
+  },
+  {
+    "key": "brightlinetraders::inv2052",
+    "vendor_norm": "brightlinetraders",
+    "total": 600.0,
+    "invoice_date": "2026-06-18",
+    "source_filename": "invoice_body_only.txt"
+  },
+  {
+    "key": "globaltechpartnersberlingmbh::inv3105",
+    "vendor_norm": "globaltechpartnersberlingmbh",
+    "total": 8211.0,
+    "invoice_date": "2026-07-06",
+    "source_filename": "invoice_dollar_scanned.pdf"
+  }
+]

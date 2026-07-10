@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "amount_mismatch_text.pdf",
+    "file_type_detected": "text_pdf",
+    "route": "text_pdf",
+    "notes": "Text layer detected \u2013 direct extraction (pdfplumber)."
+  },
+  {
+    "filename": "invoice_2049_Duplicate.pdf",
+    "file_type_detected": "text_pdf",
+    "route": "text_pdf",
+    "notes": "Text layer detected \u2013 direct extraction (pdfplumber)."
+  },
+  {
+    "filename": "invoice_euro_currency_mismatch.pdf",
+    "file_type_detected": "text_pdf",
+    "route": "text_pdf",
+    "notes": "Text layer detected \u2013 direct extraction (pdfplumber)."
+  },
+  {
+    "filename": "invoice_wrong_format.xlsx",
+    "file_type_detected": "xlsx",
+    "route": "unsupported",
+    "notes": "Unsupported file format \u2013 send to manual review."
+  }
+]

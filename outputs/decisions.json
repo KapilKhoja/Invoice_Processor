@@ -1,0 +1,149 @@
+[
+  {
+    "vendor_name": "Quantum Network Solutions",
+    "invoice_number": null,
+    "invoice_date": null,
+    "po_reference": [
+      "PO-4600"
+    ],
+    "line_items": [
+      {
+        "description": "Enterprise Core Router (Q-Series)",
+        "qty": "1",
+        "unit_price": "$1,000.00",
+        "amount": 1000.0
+      },
+      {
+        "description": "48-Port Network Switch",
+        "qty": "2",
+        "unit_price": "$250.00",
+        "amount": 500.0
+      }
+    ],
+    "subtotal": 1500.0,
+    "tax": 120.0,
+    "total": 1620.0,
+    "currency": "USD",
+    "source_filename": "amount_mismatch_text.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($1,620.00) match stated total."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null,
+    "po_match": {
+      "overall_status": "confirmed",
+      "candidates": [
+        {
+          "original_reference": "PO-4600",
+          "normalized_reference": "PO-4600",
+          "po_found": true,
+          "matched_po": {
+            "po_number": "PO-4600",
+            "vendor_name": "Quantum Network Solutions",
+            "po_amount": "1500.00"
+          },
+          "vendor_match": true,
+          "vendor_similarity": 1.0,
+          "status": "confirmed"
+        }
+      ]
+    },
+    "decision": "FLAGGED",
+    "decision_reasons": [
+      "Invoice total ($1,620.00) differs from PO amount ($1,500.00) by 8.0%, exceeding the 5% tolerance."
+    ],
+    "decision_short_reason": "Amount variance 8%"
+  },
+  {
+    "vendor_name": "ACME Supplies Inc.",
+    "invoice_number": "INV-2049",
+    "invoice_date": "2026-06-15",
+    "po_reference": [
+      "PO-4471"
+    ],
+    "line_items": [
+      {
+        "description": "Steel Brackets",
+        "qty": "100",
+        "unit_price": "$12.50",
+        "amount": 1250.0
+      },
+      {
+        "description": "Shipping",
+        "qty": null,
+        "unit_price": null,
+        "amount": 45.0
+      }
+    ],
+    "subtotal": 1295.0,
+    "tax": 103.6,
+    "total": 1398.6,
+    "currency": "USD",
+    "source_filename": "invoice_2049_Duplicate.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($1,398.60) match stated total."
+    },
+    "is_duplicate": true,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null,
+    "po_match": {
+      "overall_status": "skipped_duplicate",
+      "candidates": []
+    },
+    "decision": "REJECTED",
+    "decision_reasons": [
+      "Duplicate invoice - this vendor/invoice number combination was already processed in a previous run."
+    ],
+    "decision_short_reason": "Duplicate invoice"
+  },
+  {
+    "vendor_name": "Global Tech Partners Berlin GmbH",
+    "invoice_number": null,
+    "invoice_date": null,
+    "po_reference": [
+      "PO-4499"
+    ],
+    "line_items": [],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "currency": "EUR",
+    "source_filename": "invoice_euro_currency_mismatch.pdf",
+    "math_check": {
+      "performed": false,
+      "passed": null,
+      "detail": "Not enough data to verify (missing line items or total)."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null,
+    "po_match": {
+      "overall_status": "confirmed",
+      "candidates": [
+        {
+          "original_reference": "PO-4499",
+          "normalized_reference": "PO-4499",
+          "po_found": true,
+          "matched_po": {
+            "po_number": "PO-4499",
+            "vendor_name": "Global Tech Partners Berlin GmbH",
+            "po_amount": "8211"
+          },
+          "vendor_match": true,
+          "vendor_similarity": 1.0,
+          "status": "confirmed"
+        }
+      ]
+    },
+    "decision": "FLAGGED",
+    "decision_reasons": [
+      "Currency mismatch: invoice appears to be in EUR, but the matched PO is in USD - verify conversion before approving."
+    ],
+    "decision_short_reason": "Currency mismatch (EUR vs USD)"
+  }
+]

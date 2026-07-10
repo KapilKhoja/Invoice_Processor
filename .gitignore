@@ -1,20 +1,11 @@
-# environment / secrets
 .env
 .env.*
 !.env.example
 
-# python
 __pycache__/
 *.pyc
 .venv/
 venv/
 
-# pipeline runtime data (regenerated on each run)
-inputs/
-outputs/
-invoice_history.db
-purchase_orders.csv
-
-# os / editor
 .DS_Store
 .vscode/

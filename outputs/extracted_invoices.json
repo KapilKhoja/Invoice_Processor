@@ -1,0 +1,291 @@
+[
+  {
+    "vendor_name": "Apex Logistics",
+    "invoice_number": null,
+    "invoice_date": null,
+    "po_reference": [
+      "PO-4550"
+    ],
+    "line_items": [
+      {
+        "description": "Freight Forwarding - Standard",
+        "qty": "1",
+        "unit_price": "$1,500.00",
+        "amount": 1500.0
+      },
+      {
+        "description": "Fuel Surcharge",
+        "qty": "1",
+        "unit_price": "$200.00",
+        "amount": 200.0
+      }
+    ],
+    "subtotal": 1700.0,
+    "tax": 136.0,
+    "total": 1836.0,
+    "currency": "USD",
+    "source_filename": "happy_path_1_text_v2.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($1,836.00) match stated total."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "Nimbus Cloud Services",
+    "invoice_number": "INV-4002",
+    "invoice_date": "2026-07-06",
+    "po_reference": [
+      "PO-4551"
+    ],
+    "line_items": [
+      {
+        "description": "Enterprise Server Hosting",
+        "qty": 1,
+        "unit_price": 3000.0,
+        "amount": 3000.0
+      },
+      {
+        "description": "Dedicated IP Address",
+        "qty": 1,
+        "unit_price": 50.0,
+        "amount": 50.0
+      }
+    ],
+    "subtotal": 3050.0,
+    "tax": 244.0,
+    "total": 3294.0,
+    "currency": "USD",
+    "source_filename": "happy_path_2_scanned.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($3,294.00) match stated total."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "Orion Office Supplies",
+    "invoice_number": null,
+    "invoice_date": null,
+    "po_reference": [
+      "PO-4552"
+    ],
+    "line_items": [
+      {
+        "description": "Premium Printer Paper (Case)",
+        "qty": "2",
+        "unit_price": "$25.00",
+        "amount": 50.0
+      },
+      {
+        "description": "Black Toner Cartridge",
+        "qty": "1",
+        "unit_price": "$150.00",
+        "amount": 150.0
+      }
+    ],
+    "subtotal": 200.0,
+    "tax": 16.0,
+    "total": 216.0,
+    "currency": "USD",
+    "source_filename": "happy_path_3_text_v2.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($216.00) match stated total."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "ACME Supplies Inc.",
+    "invoice_number": "INV-2049",
+    "invoice_date": "2026-06-15",
+    "po_reference": [
+      "PO-4471"
+    ],
+    "line_items": [
+      {
+        "description": "Steel Brackets",
+        "qty": "100",
+        "unit_price": "$12.50",
+        "amount": 1250.0
+      },
+      {
+        "description": "Shipping",
+        "qty": null,
+        "unit_price": null,
+        "amount": 45.0
+      }
+    ],
+    "subtotal": 1295.0,
+    "tax": 103.6,
+    "total": 1398.6,
+    "currency": "USD",
+    "source_filename": "invoice_2049.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($1,398.60) match stated total."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "Brightline Traders",
+    "invoice_number": "INV-2052",
+    "invoice_date": "2026-06-18",
+    "po_reference": [
+      "PO-4474"
+    ],
+    "line_items": [],
+    "subtotal": null,
+    "tax": null,
+    "total": 600.0,
+    "currency": null,
+    "source_filename": "invoice_body_only.txt",
+    "math_check": {
+      "performed": false,
+      "passed": null,
+      "detail": "Not enough data to verify (missing line items or total)."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "GLOBAL TECH PARTNERS BERLIN GMBH",
+    "invoice_number": "INV-3105",
+    "invoice_date": "2026-07-06",
+    "po_reference": [
+      "PO-4499"
+    ],
+    "line_items": [
+      {
+        "description": "Enterprise Software License - EU Region",
+        "qty": 1,
+        "unit_price": 4500.0,
+        "amount": 4500.0
+      },
+      {
+        "description": "Implementation Consulting (Hours)",
+        "qty": 20,
+        "unit_price": 120.0,
+        "amount": 2400.0
+      }
+    ],
+    "subtotal": 6900.0,
+    "tax": 1311.0,
+    "total": 8211.0,
+    "currency": "USD",
+    "source_filename": "invoice_dollar_scanned.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($8,211.00) match stated total."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "Quantum Network Solutions",
+    "invoice_number": null,
+    "invoice_date": null,
+    "po_reference": [
+      "PO-4600"
+    ],
+    "line_items": [
+      {
+        "description": "Enterprise Core Router (Q-Series)",
+        "qty": "1",
+        "unit_price": "$1,000.00",
+        "amount": 1000.0
+      },
+      {
+        "description": "48-Port Network Switch",
+        "qty": "2",
+        "unit_price": "$250.00",
+        "amount": 500.0
+      }
+    ],
+    "subtotal": 1500.0,
+    "tax": 120.0,
+    "total": 1620.0,
+    "currency": "USD",
+    "source_filename": "amount_mismatch_text.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($1,620.00) match stated total."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "ACME Supplies Inc.",
+    "invoice_number": "INV-2049",
+    "invoice_date": "2026-06-15",
+    "po_reference": [
+      "PO-4471"
+    ],
+    "line_items": [
+      {
+        "description": "Steel Brackets",
+        "qty": "100",
+        "unit_price": "$12.50",
+        "amount": 1250.0
+      },
+      {
+        "description": "Shipping",
+        "qty": null,
+        "unit_price": null,
+        "amount": 45.0
+      }
+    ],
+    "subtotal": 1295.0,
+    "tax": 103.6,
+    "total": 1398.6,
+    "currency": "USD",
+    "source_filename": "invoice_2049_Duplicate.pdf",
+    "math_check": {
+      "performed": true,
+      "passed": true,
+      "detail": "Line items + tax ($1,398.60) match stated total."
+    },
+    "is_duplicate": true,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  },
+  {
+    "vendor_name": "Global Tech Partners Berlin GmbH",
+    "invoice_number": null,
+    "invoice_date": null,
+    "po_reference": [
+      "PO-4499"
+    ],
+    "line_items": [],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "currency": "EUR",
+    "source_filename": "invoice_euro_currency_mismatch.pdf",
+    "math_check": {
+      "performed": false,
+      "passed": null,
+      "detail": "Not enough data to verify (missing line items or total)."
+    },
+    "is_duplicate": false,
+    "is_possible_duplicate": false,
+    "possible_duplicate_note": null
+  }
+]
